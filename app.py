@@ -76,12 +76,9 @@ def create_conversational_chain(vector_store):
     return chain
 
 def main():
-    # Initialize session state
     initialize_session_state()
     st.title("Personal Chatbot - Srinivas Natarajan")
-    # Initialize Streamlit
     st.sidebar.title("Document Processing")
-    # uploaded_files = st.sidebar.file_uploader("Upload files", accept_multiple_files=True)
 
 
     text = []
